@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regist</title>
+    
+</head>
+<body>
+    <h2>NHẬP THÔNG TIN SINH VIÊN</h2>
+
+    <form action="https://www.google.com" method="post">
+        <label for="full_name">Họ và tên:</label>
+        <input type="text" id="full_name" name="full_name"><br><br>
+
+        <label for="student_id">Mã số sinh viên:</label>
+        <input type="text" id="student_id" name="student_id"><br><br>
+
+        <label for="birthdate">Ngày sinh:</label>
+        <input type="date" id="birthdate" name="birthdate"><br><br>
+
+        Chuyên ngành:
+        <input type="checkbox" id="cnpm" name="major[]" value="CNPM">
+        <label for="cnpm">CNPM</label>
+        
+        <input type="checkbox" id="httt" name="major[]" value="HTTT">
+        <label for="httt">HTTT</label>
+        
+        <input type="checkbox" id="an_ninh_mang" name="major[]" value="An ninh mạng">
+        <label for="an_ninh_mang">An ninh mạng</label>
+
+        <br><br>
+
+        Sở thích: 
+        <br>
+
+        <input type="checkbox" id="Viet_chuong_trinh" name="major[]" value="Viết chương trình">
+        <lable for="Viet_chuong_trinh">Viết chương trình</lable>
+        <br>
+
+        <input type="checkbox" id="Phan_tich_CSDL" name="major[]" value="Phân tích cơ sở dữ liệu">
+        <lable for="Phan_tich_CSDL">Phân tích cơ sở dữ liệu</lable>
+        <br>
+
+        <input type="checkbox" id="Xay_dung_so_do_mang" name="major[]" value="Xây dựng sơ đồ mang">
+        <lable for="Xay_dung_so_do_mang">Xây dựng sơ đồ mạng</lable>
+        <br><br>
+
+        <label for="color">Màu sắc yêu thích: </label>
+        <input type="color" id="color" name="color" value="#ff0000">
+        <br><br>
+
+        <label for="avata">Hình đại diện</label>
+        <input type="file" id="avata" name="avata" value="avata">
+        <br><br>
+
+        <label for="student_id">Tên đăng nhập web trường: </label>
+        <input type="text" id="student_id" name="student_id">
+        <br><br>
+
+        <label for="password">Mật khẩu đăng nhập web trường: </label>
+        <input type="password" id="password" name="password">
+        <br><br>
+
+        <input type="submit" value="Gửi dữ liệu về máy chủ">
+    </form>
+</body>
+</html>
